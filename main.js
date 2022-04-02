@@ -6,7 +6,7 @@ color = "blue";
 ctx.beginPath();
 ctx.strokeStyle = color;
 ctx.lineWidth = 5;
-ctx.arc(30, 200, 40 ,0 , 2*Math.PI);
+ctx.arc(500, 300, 40 ,0 , 2*Math.PI);
 ctx.stroke();
 
 canvas.addEventListener("mousedown", emousedown);
